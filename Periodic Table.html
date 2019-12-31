@@ -1,0 +1,1397 @@
+<html>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+</style>
+ <script type = "text/JavaScript">
+         var photos=["<img src=\"pics/H.png\" height=\"150\" width=\"150\">","<img src=\"pics/He.png\" height=\"150\" width=\"150\">","<img src=\"pics/Li.png\" height=\"150\" width=\"150\">","<img src=\"pics/Be.png\" height=\"150\" width=\"150\">","<img src=\"pics/B.png\" height=\"150\" width=\"150\">","<img src=\"pics/C.png\" height=\"150\" width=\"150\">","<img src=\"pics/N.png\" height=\"150\" width=\"150\">","<img src=\"pics/O.png\" height=\"150\" width=\"150\">","<img src=\"pics/F.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ne.png\" height=\"150\" width=\"150\">","<img src=\"pics/Na.png\" height=\"150\" width=\"150\">","<img src=\"pics/Mg.png\" height=\"150\" width=\"150\">","<img src=\"pics/Al.png\" height=\"150\" width=\"150\">","<img src=\"pics/Si.png\" height=\"150\" width=\"150\">","<img src=\"pics/P.png\" height=\"150\" width=\"150\">","<img src=\"pics/S.png\" height=\"150\" width=\"150\">","<img src=\"pics/Cl.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ar.png\" height=\"150\" width=\"150\">","<img src=\"pics/K.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ca.png\" height=\"150\" width=\"150\">","<img src=\"pics/Sc.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ti.png\" height=\"150\" width=\"150\">","<img src=\"pics/V.png\" height=\"150\" width=\"150\">","<img src=\"pics/Cr.png\" height=\"150\" width=\"150\">","<img src=\"pics/Mn.png\" height=\"150\" width=\"150\">","<img src=\"pics/Fe.png\" height=\"150\" width=\"150\">","<img src=\"pics/Co.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ni.png\" height=\"150\" width=\"150\">","<img src=\"pics/Cu.png\" height=\"150\" width=\"150\">","<img src=\"pics/Zn.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ga.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ge.png\" height=\"150\" width=\"150\">","<img src=\"pics/As.png\" height=\"150\" width=\"150\">","<img src=\"pics/Se.png\" height=\"150\" width=\"150\">","<img src=\"pics/Br.png\" height=\"150\" width=\"150\">","<img src=\"pics/Kr.png\" height=\"150\" width=\"150\">","<img src=\"pics/Rb.png\" height=\"150\" width=\"150\">","<img src=\"pics/Sr.png\" height=\"150\" width=\"150\">","<img src=\"pics/Y.png\" height=\"150\" width=\"150\">","<img src=\"pics/Zr.png\" height=\"150\" width=\"150\">","<img src=\"pics/Nb.png\" height=\"150\" width=\"150\">","<img src=\"pics/Mo.png\" height=\"150\" width=\"150\">","<img src=\"pics/Tc.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ru.png\" height=\"150\" width=\"150\">","<img src=\"pics/Rh.png\" height=\"150\" width=\"150\">","<img src=\"pics/Pd.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ag.png\" height=\"150\" width=\"150\">","<img src=\"pics/Cd.png\" height=\"150\" width=\"150\">","<img src=\"pics/In.png\" height=\"150\" width=\"150\">","<img src=\"pics/Sn.png\" height=\"150\" width=\"150\">","<img src=\"pics/Sb.png\" height=\"150\" width=\"150\">","<img src=\"pics/Te.png\" height=\"150\" width=\"150\">","<img src=\"pics/I.png\" height=\"150\" width=\"150\">","<img src=\"pics/Xe.png\" height=\"150\" width=\"150\">","<img src=\"pics/Cs.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ba.png\" height=\"150\" width=\"150\">","<img src=\"pics/123456789.png\" height=\"150\" width=\"150\">","<img src=\"pics/Hf.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ta.png\" height=\"150\" width=\"150\">","<img src=\"pics/W.png\" height=\"150\" width=\"150\">","<img src=\"pics/Re.png\" height=\"150\" width=\"150\">","<img src=\"pics/Os.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ir.png\" height=\"150\" width=\"150\">","<img src=\"pics/Pt.png\" height=\"150\" width=\"150\">","<img src=\"pics/Au.png\" height=\"150\" width=\"150\">","<img src=\"pics/Hg.png\" height=\"150\" width=\"150\">","<img src=\"pics/Tl.png\" height=\"150\" width=\"150\">","<img src=\"pics/Pb.png\" height=\"150\" width=\"150\">","<img src=\"pics/Bi.png\" height=\"150\" width=\"150\">","<img src=\"pics/Po.png\" height=\"150\" width=\"150\">","<img src=\"pics/At.png\" height=\"150\" width=\"150\">","<img src=\"pics/Rn.png\" height=\"150\" width=\"150\">","<img src=\"pics/Fr.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ra.png\" height=\"150\" width=\"150\">","<img src=\"pics/123456789.png\" height=\"150\" width=\"150\">","<img src=\"pics/Rf.png\" height=\"150\" width=\"150\">","<img src=\"pics/Db.png\" height=\"150\" width=\"150\">","<img src=\"pics/Sg.png\" height=\"150\" width=\"150\">","<img src=\"pics/Bh.png\" height=\"150\" width=\"150\">","<img src=\"pics/Hs.png\" height=\"150\" width=\"150\">","<img src=\"pics/Mt.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ds.png\" height=\"150\" width=\"150\">","<img src=\"pics/Rg.png\" height=\"150\" width=\"150\">","<img src=\"pics/Cn.png\" height=\"150\" width=\"150\">","<img src=\"pics/Nh.png\" height=\"150\" width=\"150\">","<img src=\"pics/Fl.png\" height=\"150\" width=\"150\">","<img src=\"pics/Mc.png\" height=\"150\" width=\"150\">","<img src=\"pics/Lv.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ts.png\" height=\"150\" width=\"150\">","<img src=\"pics/Og.png\" height=\"150\" width=\"150\">","<img src=\"pics/La.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ce.png\" height=\"150\" width=\"150\">","<img src=\"pics/Pr.png\" height=\"150\" width=\"150\">","<img src=\"pics/Nd.png\" height=\"150\" width=\"150\">","<img src=\"pics/Pm.png\" height=\"150\" width=\"150\">","<img src=\"pics/Sm.png\" height=\"150\" width=\"150\">","<img src=\"pics/Eu.png\" height=\"150\" width=\"150\">","<img src=\"pics/Gd.png\" height=\"150\" width=\"150\">","<img src=\"pics/Tb.png\" height=\"150\" width=\"150\">","<img src=\"pics/Dy.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ho.png\" height=\"150\" width=\"150\">","<img src=\"pics/Er.png\" height=\"150\" width=\"150\">","<img src=\"pics/Tm.png\" height=\"150\" width=\"150\">","<img src=\"pics/Yb.png\" height=\"150\" width=\"150\">","<img src=\"pics/Lu.png\" height=\"150\" width=\"150\">","<img src=\"pics/Ac.png\" height=\"150\" width=\"150\">","<img src=\"pics/Th.png\" height=\"150\" width=\"150\">","<img src=\"pics/Pa.png\" height=\"150\" width=\"150\">","<img src=\"pics/U.png\" height=\"150\" width=\"150\">","<img src=\"pics/Np.png\" height=\"150\" width=\"150\">","<img src=\"pics/Pu.png\" height=\"150\" width=\"150\">","<img src=\"pics/Am.png\" height=\"150\" width=\"150\">","<img src=\"pics/Cm.png\" height=\"150\" width=\"150\">","<img src=\"pics/Bk.png\" height=\"150\" width=\"150\">","<img src=\"pics/Cf.png\" height=\"150\" width=\"150\">","<img src=\"pics/Es.png\" height=\"150\" width=\"150\">","<img src=\"pics/Fm.png\" height=\"150\" width=\"150\">","<img src=\"pics/Md.png\" height=\"150\" width=\"150\">","<img src=\"pics/No.png\" height=\"150\" width=\"150\">","<img src=\"pics/Lr.png\" height=\"150\" width=\"150\">"];
+         function EventHandler() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[0];
+            te.innerHTML="Non metal<br>State at 273K: Gas<br> 1s<sup>1</sup>"; 
+         }
+         function EventHandler1() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[1];
+            te.innerHTML="Noble gas<br>State at 273K: Gas<br> 1s<sup>2</sup>";
+             
+         }
+function EventHandler2() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[2]; 
+ te.innerHTML="Alkali Metal<br>State at 273K: Solid<br> [He] 2s<sup>1</sup>";        
+}
+function EventHandler3() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[3];
+             te.innerHTML="Alkaline Earth metal<br>State at 273K: Solid<br> [He] 2s<sup>2</sup>"; 
+         }
+function EventHandler4() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[4];
+            te.innerHTML="Metalloids<br>State at 273K: Solid<br> [He] 2s<sup>2</sup>2p<sup>1</sup>"; 
+         }
+function EventHandler5() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[5]; 
+te.innerHTML="Non Metal<br>State at 273K: Solid<br> [He] 2s<sup>2</sup>2p<sup>2</sup>";
+         }
+function EventHandler6() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[6]; 
+            te.innerHTML="Non metal<br>State at 273K: Gas <br> [He] 2s<sup>2</sup>2p<sup>3</sup>";         
+}
+function EventHandler7() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[7];
+te.innerHTML="Non metal<br>State at 273K: Gas<br> [He] 2s<sup>2</sup>2p<sup>4</sup>"; 
+         }
+function EventHandler8() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[8]; 
+te.innerHTML="Non metal, Halogen<br>State at 273K: Gas <br> [He] 2s<sup>2</sup>2p<sup>5</sup>";         
+}
+function EventHandler9() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[9]; 
+            te.innerHTML="Noble Gas<br>State at 273K: Gas<br> [He] 2s<sup>2</sup>2p<sup>6</sup>";
+         }
+function EventHandler10() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[10];
+            te.innerHTML="Alkali metal<br>State at 273K: Solid<br> [Ne] 3s<sup>1</sup>";
+         }
+function EventHandler11() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[11]; 
+            te.innerHTML="Alkaline Earth Metal<br>State at 273K: Solid<br> [Ne] 3s<sup>2</sup>";
+         }
+function EventHandler12() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[12];
+te.innerHTML="Post-Transition Metal<br>State at 273K: Solid <br> [Ne] 3s<sup>2</sup>3p<sup>1</sup>";
+         }
+function EventHandler13() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[13]; 
+te.innerHTML="Metalloid<br>State at 273K: Solid<br> [Ne] 3s<sup>2</sup>3p<sup>2</sup>";
+         }
+function EventHandler14() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[14]; 
+te.innerHTML="Non Metal<br>State at 273K: Solid<br> [Ne] 3s<sup>2</sup>3p<sup>3</sup>";
+         }
+function EventHandler15() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[15]; 
+te.innerHTML="Non metal<br>State at 273K: Solid<br> [Ne] 3s<sup>2</sup>3p<sup>4</sup>";
+         }
+function EventHandler16() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[16]; 
+te.innerHTML="Non metal<br>State at 273K: Gas<br> [Ne] 3s<sup>2</sup>3p<sup>5</sup>";
+         }
+function EventHandler17() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[17];
+te.innerHTML="Noble gas<br>State at 273K: Gas<br> [Ne] 3s<sup>2</sup>3p<sup>6</sup>"; 
+         }
+function EventHandler18() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[18]; 
+te.innerHTML="Alkali metal<br>State at 273K: Solid<br>[Ar] 4s<sup>1</sup>";
+         }
+function EventHandler19() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[19]; 
+te.innerHTML="Alkaline earth metal<br>State at 273K: Solid<br>[Ar] 4s<sup>2</sup>";
+         }
+function EventHandler20() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[20]; 
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Ar] 4s<sup>2</sup>3d<sup>1</sup>";
+         }
+function EventHandler21() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[21]; 
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Ar] 4s<sup>2</sup>3d<sup>2</sup>";
+         }
+function EventHandler22() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[22];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Ar] 4s<sup>2</sup>3d<sup>3</sup>"; 
+         }
+function EventHandler23() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[23];
+te.innerHTML="Transition metal<br>State at 273K: Solid <br>[Ar] 4s<sup>1</sup>3d<sup>5</sup>"; 
+         }
+function EventHandler24() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[24]; 
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Ar] 4s<sup>2</sup>3d<sup>5</sup>";
+         }
+function EventHandler25() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[25]; 
+te.innerHTML="State at 273K: Solid<br>[Ar] 4s<sup>2</sup>3d<sup>6</sup>";
+         }
+function EventHandler26() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[26];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Ar] 4s<sup>2</sup>3d<sup>7</sup>"; 
+         }
+function EventHandler27() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[27]; 
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Ar] 4s<sup>2</sup>3d<sup>8</sup>";
+         }
+function EventHandler28() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[28];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Ar] 4s<sup>1</sup>3d<sup>10</sup>"; 
+         }
+function EventHandler29() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[29];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Ar] 4s<sup>2</sup>3d<sup>10</sup>"; 
+         }
+function EventHandler30() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[30];
+te.innerHTML="Metalloids<br>Post Transition metal<br>State at 273K: Solid<br>[Ar] 4s<sup>2</sup>3d<sup>10</sup>4p<sup>1</sup>"; 
+         }
+function EventHandler31() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[31];
+te.innerHTML="Metalloid<br>State at 273K: Solid<br>[Ar] 4s<sup>2</sup>3d<sup>10</sup>4p<sup>2</sup>"; 
+         }
+function EventHandler32() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[32]; 
+te.innerHTML="Non metal<br>State at 273K: Solid<br>[Ar] 4s<sup>2</sup>3d<sup>10</sup>4p<sup>3</sup>";
+         }
+function EventHandler33() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[33];
+te.innerHTML="Non metal<br>State at 273K: Solid<br>[Ar] 4s<sup>2</sup>3d<sup>10</sup>4p<sup>4</sup>"; 
+         }
+function EventHandler34() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[34];
+te.innerHTML="Non Metal<br>State at 273K: Solid<br>[Ar] 4s<sup>2</sup>3d<sup>10</sup>4p<sup>5</sup>"; 
+         }
+function EventHandler35() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[35];
+te.innerHTML="Noble gas<br>State at 273K: Solid<br>[Ar] 4s<sup>2</sup>3d<sup>10</sup>4p<sup>6</sup>"; 
+         }
+function EventHandler36() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[36];
+te.innerHTML="Alkali metal<br>State at 273K: Solid<br>[Kr]5s<sup>1</sup>"; 
+         }
+function EventHandler37() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[37]; 
+te.innerHTML="Alkaline earth metal<br>State at 273K: Gas<br>[Kr]5s<sup>2</sup>";
+         }
+function EventHandler38() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[38];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Kr]5s<sup>2</sup>4d<sup>1</sup>"; 
+         }
+function EventHandler39() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[39]; 
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Kr]5s<sup>2</sup>4d<sup>2</sup>";
+         }
+function EventHandler40() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[40];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Kr]5s<sup>2</sup>4d<sup>3</sup>"; 
+         }
+function EventHandler41() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[41];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Kr]5s<sup>1</sup>4d<sup>5</sup>"; 
+         }
+function EventHandler42() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[42]; 
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Kr]5s<sup>2</sup>4d<sup>5</sup>";
+         }
+function EventHandler43() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[43];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Kr]5s<sup>2</sup>4d<sup>6</sup>"; 
+         }
+function EventHandler44() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[44];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Kr]5s<sup>2</sup>4d<sup>7</sup>"; 
+         }
+function EventHandler45() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[45];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Kr]5s<sup>2</sup>4d<sup>8</sup>"; 
+         }
+function EventHandler46() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[46];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Kr]5s<sup>1</sup>4d<sup>10</sup>"; 
+         }
+function EventHandler47() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[47];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Kr]5s<sup>2</sup>4d<sup>10</sup>"; 
+         }
+function EventHandler48() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[48];
+te.innerHTML="Post Transition metal<br>State at 273K: Solid<br>[Kr]5s<sup>2</sup>4d<sup>10</sup>5p<sub>1</sub>"; 
+         }
+function EventHandler49() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[49];
+te.innerHTML="Post Transition metal<br>State at 273K: Solid<br>[Kr]5s<sup>2</sup>4d<sup>10</sup>5p<sub>2</sub>"; 
+         }
+function EventHandler50() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[50];
+te.innerHTML="Metalloid<br>State at 273K: Solid<br>[Kr]5s<sup>2</sup>4d<sup>10</sup>5p<sub>3</sub>"; 
+         }
+function EventHandler51() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[51];
+te.innerHTML="Metalloid<br>State at 273K: Solid<br>[Kr]5s<sup>2</sup>4d<sup>10</sup>5p<sub>4</sub>"; 
+         }
+function EventHandler52() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[52];
+te.innerHTML="Non metal<br>State at 273K: Solid<br>[Kr]5s<sup>2</sup>4d<sup>10</sup>5p<sub>5</sub>"; 
+         }
+function EventHandler53() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[53];
+te.innerHTML="Noble gas<br>State at 273K: Solid<br>[Kr]5s<sup>2</sup>4d<sup>10</sup>5p<sup>6</sup>"; 
+         }
+function EventHandler54() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[54];
+te.innerHTML="Alkali metal<br>State at 273K: Solid<br>[Xe]6s<sup>1</sup>"; 
+         }
+function EventHandler55() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[55]; 
+te.innerHTML="Alkaline Earth Metals<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>";
+         }
+function EventHandler56() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[56];
+te.innerHTML="Lanthanoids"; 
+         }
+function EventHandler57() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[57];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>2</sup>"; 
+         }
+function EventHandler58() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[58];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>3</sup>"; 
+         }
+function EventHandler59() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[59];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>4</sup>"; 
+         }
+function EventHandler60() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[60];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>5</sup>"; 
+         }
+
+function EventHandler61() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[61];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>6</sup>"; 
+         }
+
+function EventHandler62() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[62];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>7</sup>"; 
+         }
+function EventHandler63() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[63];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>8</sup>"; 
+         }
+function EventHandler64() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[64];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>1</sup>4f<sup>14</sup>5d<sup>10</sup>"; 
+         }
+function EventHandler65() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[65];
+te.innerHTML="Transition metal<br>State at 273K: Liquid<br>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>"; 
+         }
+function EventHandler66() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[66];
+te.innerHTML="Post Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>1</sup>"; 
+         }
+function EventHandler67() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[67];
+te.innerHTML="Post Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>2</sup>"; 
+         }
+function EventHandler68() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[68];
+te.innerHTML="Post Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>3</sup>"; 
+         }
+function EventHandler69() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[69];
+te.innerHTML="Post Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>4</sup>"; 
+         }
+function EventHandler70() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[70];
+te.innerHTML="Metalloid<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>5</sup>"; 
+         }
+function EventHandler71() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[71];
+te.innerHTML="Noble gas<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>6</sup>"; 
+         }
+function EventHandler72() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[72];
+te.innerHTML="Alkali Metal<br>State at 273K: Solid<br>[Rn] 7s<sup>1</sup>"; 
+         }
+function EventHandler73() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[73];
+te.innerHTML="Alkaline Earth metal<br>State at 273K: Solid<br>[Rn] 7s<sup>2</sup>"; 
+         }
+function EventHandler74() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[74];
+te.innerHTML="Actinoids"; 
+         }
+function EventHandler75() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[75];
+te.innerHTML="Transition metal<br>State at 273K: Unknown<br>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>2</sup>"; 
+         }
+function EventHandler76() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[76];
+te.innerHTML="Transition metal<br>State at 273K: Unknown<br>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>3</sup>"; 
+         }
+function EventHandler77() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[77];
+te.innerHTML="Transition metal<br>State at 273K: Unknown<br>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>4</sup>"; 
+         }
+function EventHandler78() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[78];
+te.innerHTML="Transition metal<br>State at 273K: Unknown<br>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>5</sup>"; 
+         }
+function EventHandler79() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[79];
+te.innerHTML="Transition metal<br>State at 273K: Unknown<br>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>6</sup>"; 
+         }
+function EventHandler80() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[80];
+te.innerHTML="State at 273K: Unknown<br>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>7</sup>"; 
+         }
+function EventHandler81() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[81];
+te.innerHTML="State at 273K: Unknown<br>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>8</sup>"; 
+         }
+function EventHandler82() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[82];
+te.innerHTML="State at 273K: Unknown<br>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>9</sup>"; 
+         }
+function EventHandler83() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[83];
+te.innerHTML="Transition metal<br>State at 273K: Unknown<br>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>10</sup>"; 
+         }
+function EventHandler84() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[84];
+te.innerHTML="State at 273K: Unknown<br>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>10</sup>7p<sup>1</sup>"; 
+         }
+function EventHandler85() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[85];
+te.innerHTML="Post Transition metal<br>State at 273K: Unknown<br>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>10</sup>7p<sup>2</sup>"; 
+         }
+function EventHandler86() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[86];
+te.innerHTML="State at 273K: Unknown<br>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>10</sup>7p<sup>3</sup>"; 
+         }
+function EventHandler87() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[87];
+te.innerHTML="State at 273K: Unknown<br>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>10</sup>7p<sup>4</sup>"; 
+         }
+function EventHandler88() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[88];
+te.innerHTML="State at 273K: Unknown<br>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>10</sup>7p<sup>5</sup>"; 
+         }
+function EventHandler89() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[89];
+te.innerHTML="State at 273K: Unknown<br>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>10</sup>7p<sup>6</sup>"; 
+         }
+function EventHandler90() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[90];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>5d<sup>1</sup>"; 
+         }
+function EventHandler91() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[91];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>1</sup>5d<sup>1</sup>"; 
+         }
+function EventHandler92() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[92];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>3</sup>"; 
+         }
+function EventHandler93() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[93];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>4</sup>"; 
+         }
+function EventHandler94() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[94];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>5</sup>"; 
+         }
+function EventHandler95() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[95];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>6</sup>"; 
+         }
+function EventHandler96() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[96];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>7</sup>"; 
+         }
+function EventHandler97() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[97];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>8</sup>"; 
+         }
+function EventHandler98() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[98];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>9</sup>"; 
+         }
+function EventHandler99() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[99];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>10</sup>"; 
+         }
+function EventHandler100() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[100];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>11</sup>"; 
+         }
+function EventHandler101() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[101];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>12</sup>"; 
+         }
+function EventHandler102() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[102];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>13</sup>"; 
+         }
+
+function EventHandler103() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[103];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>14</sup>"; 
+         }
+function EventHandler104() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[104];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>1</sup>"; 
+         }
+function EventHandler105() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[105];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Rn]7s<sup>2</sup>6d<sup>1</sup>"; 
+         }
+
+function EventHandler106() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[106];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Rn]7s<sup>2</sup>6d<sup>2</sup>"; 
+         }
+function EventHandler107() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[107];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Rn]7s<sup>2</sup>5f<sup>1</sup>6d<sup>1</sup>"; 
+         }
+function EventHandler108() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[108];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Rn]7s<sup>2</sup>5f<sup>2</sup>6d<sup>1</sup>"; 
+         }
+function EventHandler109() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[109];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Rn]7s<sup>2</sup>5f<sup>3</sup>6d<sup>1</sup>"; 
+         }
+function EventHandler110() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[110];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Rn]7s<sup>2</sup>5f<sup>4</sup>6d<sup>1</sup>"; 
+         }
+function EventHandler111() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[111];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Rn]7s<sup>2</sup>5f<sup>6</sup>"; 
+         }
+function EventHandler112() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[112];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Rn]7s<sup>2</sup>5f<sup>7</sup>"; 
+         }
+function EventHandler113() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[113];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Rn]7s<sup>2</sup>5f<sup>8</sup>"; 
+         }
+function EventHandler114() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[114];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Rn]7s<sup>2</sup>5f<sup>9</sup>"; 
+         }
+function EventHandler115() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[115];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Rn]7s<sup>2</sup>5f<sup>10</sup>"; 
+         }
+function EventHandler116() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[116];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Rn]7s<sup>2</sup>5f<sup>11</sup>"; 
+         }
+function EventHandler117() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[117];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Rn]7s<sup>2</sup>5f<sup>12</sup>"; 
+         }
+function EventHandler118() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[117];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Rn]7s<sup>2</sup>5f<sup>13</sup>"; 
+         }
+function EventHandler119() {
+            var Table = document.getElementById("co");
+            Table.innerHTML = photos[117];
+te.innerHTML="Transition metal<br>State at 273K: Solid<br>[Rn]7s<sup>2</sup>5f<sup>14</sup>"; 
+         }
+
+function EventHandler120(){
+            var Table = document.getElementById("1");
+            Table.style.backgroundColor = "yellow";
+}
+function EventHandler121(){
+            var Table = document.getElementById("1");
+            Table.style.backgroundColor = "lightblue";
+}
+function EventHandler122(){
+            var Table = document.getElementById("2");
+            Table.style.backgroundColor = "yellow";
+}
+function EventHandler123(){
+            var Table = document.getElementById("2");
+            Table.style.backgroundColor = "lightblue";
+}
+function EventHandler124(){
+            var Tab3 = document.getElementById("3");
+            Tab3.style.backgroundColor = "yellow";
+            var Tab4 = document.getElementById("4");
+            Tab4.style.backgroundColor = "yellow";
+           var Tab5 = document.getElementById("5");
+            Tab5.style.backgroundColor = "yellow";
+           var Tab6 = document.getElementById("6");
+            Tab6.style.backgroundColor = "yellow";
+           var Tab7 = document.getElementById("7");
+            Tab7.style.backgroundColor = "yellow";
+             
+           var Tab8 = document.getElementById("8");
+            Tab8.style.backgroundColor = "yellow";
+           var Tab9 = document.getElementById("9");
+            Tab9.style.backgroundColor = "yellow";
+           var Tab10 = document.getElementById("10");
+            Tab10.style.backgroundColor = "yellow";
+           var Tab11 = document.getElementById("11");
+            Tab11.style.backgroundColor = "yellow";
+           var Tab12 = document.getElementById("12");
+            Tab12.style.backgroundColor = "yellow";
+
+
+}
+function EventHandler125(){
+var Tab3 = document.getElementById("3");
+            Tab3.style.backgroundColor = "lightblue";
+            var Tab4 = document.getElementById("4");
+            Tab4.style.backgroundColor = "lightblue";
+           var Tab5 = document.getElementById("5");
+            Tab5.style.backgroundColor = "lightblue";
+           var Tab6 = document.getElementById("6");
+            Tab6.style.backgroundColor = "lightblue";
+           var Tab7 = document.getElementById("7");
+            Tab7.style.backgroundColor = "lightblue";
+             
+           var Tab8 = document.getElementById("8");
+            Tab8.style.backgroundColor = "lightblue";
+           var Tab9 = document.getElementById("9");
+            Tab9.style.backgroundColor = "lightblue";
+           var Tab10 = document.getElementById("10");
+            Tab10.style.backgroundColor = "lightblue";
+           var Tab11 = document.getElementById("11");
+            Tab11.style.backgroundColor = "lightblue";
+           var Tab12 = document.getElementById("12");
+            Tab12.style.backgroundColor = "lightblue";
+}
+function EventHandler126(){
+            var Tab13 = document.getElementById("13");
+            Tab13.style.backgroundColor = "yellow";
+            var Tab14 = document.getElementById("14");
+            Tab14.style.backgroundColor = "yellow";
+           var Tab15 = document.getElementById("15");
+            Tab15.style.backgroundColor = "yellow";
+           var Tab16 = document.getElementById("16");
+            Tab16.style.backgroundColor = "yellow";
+}
+function EventHandler127(){
+var Tab13 = document.getElementById("13");
+            Tab13.style.backgroundColor = "lightblue";
+            var Tab14 = document.getElementById("14");
+            Tab14.style.backgroundColor = "lightblue";
+           var Tab15 = document.getElementById("15");
+            Tab15.style.backgroundColor = "lightblue";
+           var Tab16 = document.getElementById("16");
+            Tab16.style.backgroundColor = "lightblue";
+}
+function EventHandler128(){
+            var Tab13 = document.getElementById("L");
+            Tab13.style.backgroundColor = "yellow";
+     }
+function EventHandler129(){
+            var Tab13 = document.getElementById("L");
+            Tab13.style.backgroundColor = "lightblue";
+     }
+function EventHandler130(){
+            var Tab13 = document.getElementById("A");
+            Tab13.style.backgroundColor = "yellow";
+     }
+function EventHandler131(){
+            var Tab13 = document.getElementById("A");
+            Tab13.style.backgroundColor = "lightblue";
+     }
+function EventHandler132(){
+            var Tab13 = document.getElementById("13");
+            Tab13.style.backgroundColor = "yellow";
+            var Tab14 = document.getElementById("14");
+            Tab14.style.backgroundColor = "yellow";
+           var Tab15 = document.getElementById("15");
+            Tab15.style.backgroundColor = "yellow";
+           var Tab16 = document.getElementById("16");
+            Tab16.style.backgroundColor = "yellow";
+}
+function EventHandler133(){
+var Tab13 = document.getElementById("13");
+            Tab13.style.backgroundColor = "lightblue";
+            var Tab14 = document.getElementById("14");
+            Tab14.style.backgroundColor = "lightblue";
+           var Tab15 = document.getElementById("15");
+            Tab15.style.backgroundColor = "lightblue";
+           var Tab16 = document.getElementById("16");
+            Tab16.style.backgroundColor = "lightblue";
+}
+function EventHandler134(){
+            var Tab13 = document.getElementById("13");
+            Tab13.style.backgroundColor = "yellow";
+            var Tab14 = document.getElementById("14");
+            Tab14.style.backgroundColor = "yellow";
+           var Tab15 = document.getElementById("15");
+            Tab15.style.backgroundColor = "yellow";
+           var Tab16 = document.getElementById("16");
+            Tab16.style.backgroundColor = "yellow";
+var Tab17 = document.getElementById("17");
+            Tab17.style.backgroundColor = "yellow";
+}
+function EventHandler135(){
+            var Tab13 = document.getElementById("13");
+            Tab13.style.backgroundColor = "lightblue";
+            var Tab14 = document.getElementById("14");
+            Tab14.style.backgroundColor = "lightblue";
+            var Tab15 = document.getElementById("15");
+            Tab15.style.backgroundColor = "lightblue";
+            var Tab16 = document.getElementById("16");
+            Tab16.style.backgroundColor = "lightblue";
+            var Tab17 = document.getElementById("17");
+            Tab17.style.backgroundColor = "lightblue";
+}
+function EventHandler136(){
+            var Tab18 = document.getElementById("18");
+            Tab18.style.backgroundColor = "yellow";
+     }
+function EventHandler137(){
+            var Tab18 = document.getElementById("18");
+            Tab18.style.backgroundColor = "lightblue";
+     }
+      </script>
+</head>
+<body>
+<h1 style="text-align:center">Digital Modern Periodic Table</text></h1>
+<br>
+<table style="width:100%">
+<tr>
+<th></th>
+<th id="1">1</th>
+<th><span title="Alkaline Earth Metals" id="2">2</span></th> 
+<th id="3">3</th>
+<th id="4">4</th>
+<th id="5">5</th>
+<th id="6">6</th>
+<th id="7">7</th>
+<th id="8">8</th>
+<th id="9">9</th>
+<th id="10">10</th>
+<th id="11">11</th>
+<th id="12">12</th>
+<th id="13">13</th>
+<th id="14">14</th>
+<th><span title="Pnictogens" id="15">15</span></th>
+<th><span title="Chalcogens" id="16">16</span></th>
+<th><span title="halogens" id="17">17</span></th>
+<th><span title="Noble gases" id="18">18</span></th>
+</tr>
+<tr height="150">
+<th>1</th>
+<th bgcolor="#32CD32">
+
+<p onmouseover = EventHandler();>
+H</p>
+</th>
+<th colspan="7" id="co">Chemistry Digital Assignment<br> 2</th>
+<th colspan="9" id="te">Submitted to: Dr. Ethiraj K R</th>
+<th bgcolor="#CFB53B">
+
+<p onmouseover =EventHandler1();>
+He</p>
+</th>
+</tr>
+<tr>
+<th>2</th>
+<th bgcolor="#FF4500">
+<p onmouseover = EventHandler2();>
+Li</p>
+</th>
+<th bgcolor="#FFFF00">
+<p onmouseover = EventHandler3();>
+Be</p>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th bgcolor="#00FF00">
+<p onmouseover = EventHandler4();>
+
+B</p></p>
+</th>
+<th bgcolor="#32CD32">
+<p onmouseover = EventHandler5();>
+C</p>
+</th>
+<th bgcolor="#32CD32">
+<p onmouseover = EventHandler6();>
+N</p>
+</th>
+<th bgcolor="#32CD32">
+<p onmouseover = EventHandler7();>
+O</p>
+</th>
+<th bgcolor="#32CD32">
+<p onmouseover = EventHandler8();>
+F</p>
+</th>
+<th bgcolor="#CFB53B">
+<p onmouseover = EventHandler9();>
+Ne</p>
+</th>
+</tr>
+<tr>
+<th>3</th>
+<th bgcolor="#FF4500">
+<p onmouseover = EventHandler10();>
+Na</p>
+</th>
+<th bgcolor="#FFFF00">
+<p onmouseover = EventHandler11();>
+Mg</p>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th bgcolor="#D8E97D">
+<p onmouseover = EventHandler12();>
+Al</p>
+</th>
+<th bgcolor="#00FF00">
+<p onmouseover = EventHandler13();>
+Si</p>
+</th>
+<th bgcolor="#32CD32">
+<p onmouseover = EventHandler14();>
+P</p>
+</th>
+<th  bgcolor="#32CD32">
+<p onmouseover = EventHandler15();>
+S</p>
+</th>
+<th  bgcolor="#32CD32">
+<p onmouseover = EventHandler16();>
+Cl</p>
+</th>
+<th bgcolor="#CFB53B">
+<p onmouseover = EventHandler17();>
+Ar</p>
+</th>
+</tr>
+<tr>
+<th>4</th>
+<th bgcolor="#FF4500">
+<p onmouseover = EventHandler18();>
+K</p>
+</th>
+<th bgcolor="#FFFF00">
+<p onmouseover = EventHandler19();>
+Ca</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler20();>
+Sc</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler21();>
+Ti</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler22();>
+V</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler23();>
+Cr</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler24();>
+Mn</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler25();>
+Fe</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler26();>
+Co</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler27();>
+Ni</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler28();>
+Cu</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler29();>
+Zn</p>
+</th>
+<th bgcolor="#D8E97D">
+<p onmouseover = EventHandler30();>
+Ga</p>
+</th>
+<th bgcolor="#00FF00">
+<p onmouseover = EventHandler31();>
+Ge</p>
+</th>
+<th bgcolor="#00FF00">
+<p onmouseover = EventHandler32();>
+As</p>
+</th>
+<th bgcolor="#32CD32">
+<p onmouseover = EventHandler33();>
+Se</p>
+</th>
+<th bgcolor="#32CD32">
+<p onmouseover = EventHandler34();>
+Br</p>
+</th>
+<th bgcolor="#CFB53B">
+<p onmouseover = EventHandler35();>
+Kr</p>
+</th>
+
+</tr>
+<tr>
+<th>5</th>
+<th bgcolor="#FF4500">
+<p onmouseover = EventHandler36();>
+Rb</p>
+</th>
+<th bgcolor="#FFFF00">
+<p onmouseover = EventHandler37();>
+Sr</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler38();>
+Y</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler39();>
+Zr</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler40();>
+Nb</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler41();>
+Mo</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler42();>
+Tc</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler43();>
+Ru</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler44();>
+Rh</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler45();>
+Pd</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler46();>
+Ag</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler47();>
+Cd</p>
+</th>
+<th bgcolor="#D8E97D">
+<p onmouseover = EventHandler48();>
+In</p>
+</th>
+<th bgcolor="#D8E97D">
+<p onmouseover = EventHandler49();>
+Sn</p>
+</th>
+<th bgcolor="#00FF00">
+<p onmouseover = EventHandler50();>
+Sb</p>
+</th>
+<th bgcolor="#00FF00">
+<p onmouseover = EventHandler51();>
+Te</p>
+</th>
+<th bgcolor="#32CD32">
+<p onmouseover = EventHandler52();>
+I</p>
+</th>
+<th bgcolor="#CFB53B">
+<p onmouseover = EventHandler53();>
+Xe</p>
+</th>
+
+</tr>
+<tr>
+<th>6</th>
+<th bgcolor="#FF4500">
+<p onmouseover = EventHandler54();>
+Cs</p>
+</th>
+<th bgcolor="#FFFF00">
+<p onmouseover = EventHandler55();>
+Ba</p>
+</th>
+<th>
+<p onmouseover = EventHandler56();>
+57-71</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler57();>
+Hf</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler58();>
+Ta</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler59();>
+W</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler60();>
+Re</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler61();>
+Os</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler62();>
+Ir</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler63();>
+Pt</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler64();>
+Au</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler65();>
+Hg</p>
+</th>
+<th bgcolor="#D8E97D">
+<p onmouseover = EventHandler66();>
+Tl</p>
+</th>
+<th bgcolor="#D8E97D">
+<p onmouseover = EventHandler67();>
+Pb</p>
+</th>
+<th bgcolor="#D8E97D">
+<p onmouseover = EventHandler68();>
+Bi</p>
+</th>
+<th bgcolor="#D8E97D">
+<p onmouseover = EventHandler69();>
+Po</p>
+</th>
+<th bgcolor="#00FF00">
+<p onmouseover = EventHandler70();>
+At</p>
+</th>
+<th bgcolor="#CFB53B">
+<p onmouseover = EventHandler71();>
+Rn</p>
+</th>
+
+</tr>
+<tr>
+<th>7</th>
+<th bgcolor="#FF4500">
+<p onmouseover = EventHandler72();>
+Fr</p>
+</th>
+<th bgcolor="#FFFF00">
+<p onmouseover = EventHandler73();>
+Ra</p>
+</th>
+<th>
+<p onmouseover = EventHandler74();>
+89-103</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler75();>
+Rf</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler76();>
+Db</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler77();>
+Sg</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler78();>
+Bh</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler79();>
+Hs</p>
+</th>
+<th bgcolor="#A9A9A9">
+<p onmouseover = EventHandler80();>
+Mt</p>
+</th>
+<th bgcolor="#A9A9A9">
+<p onmouseover = EventHandler81();>
+Ds</p>
+</th>
+<th bgcolor="#A9A9A9">
+<p onmouseover = EventHandler82();>
+Rg</p>
+</th>
+<th bgcolor="#FCB459">
+<p onmouseover = EventHandler83();>
+Cn</p>
+</th>
+<th bgcolor="#A9A9A9">
+<p onmouseover = EventHandler84();>
+Nh</p>
+</th>
+<th bgcolor="#D8E97D">
+<p onmouseover = EventHandler85();>
+Fl</p>
+</th>
+<th bgcolor="#A9A9A9">
+<p onmouseover = EventHandler86();>
+Mc</p>
+</th>
+<th bgcolor="#A9A9A9">
+<p onmouseover = EventHandler87();>
+Lv</p>
+</th>
+<th bgcolor="#A9A9A9">
+<p onmouseover = EventHandler88();>
+Ts</p>
+</th>
+<th bgcolor="#A9A9A9">
+<p onmouseover = EventHandler89();>
+Og</p>
+</th>
+
+</tr>
+
+  </table>
+<br><br>
+<table align="right"  width="75%">
+
+<tr>
+<th id="L">57-71</th>
+<th bgcolor="#9932CC">
+<p onmouseover = EventHandler90();>
+La</p>
+</th>
+<th bgcolor="#9932CC">
+<p onmouseover = EventHandler91();>
+Ce</p>
+</th>
+<th bgcolor="#9932CC">
+<p onmouseover = EventHandler92();>
+Pr</p>
+</th>
+<th bgcolor="#9932CC">
+<p onmouseover = EventHandler93();>
+Nd</p>
+</th>
+<th bgcolor="#9932CC">
+<p onmouseover = EventHandler94();>
+Pm</p>
+</th>
+<th bgcolor="#9932CC">
+<p onmouseover = EventHandler95();>
+Sm</p>
+</th>
+<th bgcolor="#9932CC">
+<p onmouseover = EventHandler96();>
+Eu</p>
+</th>
+<th bgcolor="#9932CC">
+<p onmouseover = EventHandler97();>
+Gd</p>
+</th>
+<th bgcolor="#9932CC">
+<p onmouseover = EventHandler98();>
+Tb</p>
+</th>
+<th bgcolor="#9932CC">
+<p onmouseover = EventHandler99();>
+Dy</p>
+</th>
+<th bgcolor="#9932CC">
+<p onmouseover = EventHandler100();>
+Ho</p>
+</th>
+<th bgcolor="#9932CC">
+<p onmouseover = EventHandler101();>
+Er</p>
+</th>
+<th bgcolor="#9932CC">
+<p onmouseover = EventHandler102();>
+Tm</p>
+</th>
+<th bgcolor="#9932CC">
+<p onmouseover = EventHandler103();>
+Yb</p>
+</th>
+<th bgcolor="#9932CC">
+<p onmouseover = EventHandler104();>
+Lu</p>
+</th>
+</tr>
+<tr>
+<th id="A">89-103</th>
+<th bgcolor="#FFB6C1">
+<p onmouseover = EventHandler105();>
+Ac</p>
+</th>
+<th bgcolor="#FFB6C1">
+<p onmouseover = EventHandler106();>
+Th</p>
+</th>
+<th bgcolor="#FFB6C1">
+<p onmouseover = EventHandler107();>
+Pa</p>
+</th>
+<th bgcolor="#FFB6C1">
+<p onmouseover = EventHandler108();>
+U</p>
+</th>
+<th bgcolor="#FFB6C1">
+<p onmouseover = EventHandler109();>
+Np</p>
+</th>
+<th bgcolor="#FFB6C1">
+<p onmouseover = EventHandler110();>
+Pu</p>
+</th>
+<th bgcolor="#FFB6C1">
+<p onmouseover = EventHandler111();>
+Am</p>
+</th>
+<th bgcolor="#FFB6C1">
+<p onmouseover = EventHandler112();>
+Cm</p>
+</th>
+<th bgcolor="#FFB6C1">
+<p onmouseover = EventHandler113();>
+Bk</p>
+</th>
+<th bgcolor="#FFB6C1">
+<p onmouseover = EventHandler114();>
+Cf</p>
+</th>
+<th bgcolor="#FFB6C1">
+<p onmouseover = EventHandler115();>
+Es</p>
+</th>
+<th bgcolor="#FFB6C1">
+<p onmouseover = EventHandler116();>
+Fm</p>
+</th>
+<th bgcolor="#FFB6C1">
+<p onmouseover = EventHandler117();>
+Md</p>
+</th>
+<th bgcolor="#FFB6C1">
+<p onmouseover = EventHandler118();>
+No</p>
+</th>
+<th bgcolor="#FFB6C1">
+<p onmouseover = EventHandler119();>
+Lr</p>
+</th>
+</table>
+<table align="left">    
+<tr>
+<th bgcolor="#FF4500"><p onmouseover=EventHandler120() onmouseleave=EventHandler121()>Alkali metals</p>
+</th>
+<th bgcolor="#CFB53B"><p onmouseover=EventHandler136() onmouseleave=EventHandler137()>Noble Gases</p></th>
+</tr>
+<tr>
+<th bgcolor="#FFFF00"><p onmouseover=EventHandler122() onmouseleave=EventHandler123()>Alkaline earth metals</p>
+</th>
+</tr>
+<tr>
+<th bgcolor="#FCB459"><p onmouseover=EventHandler124() onmouseleave=EventHandler125()>Metals</p>
+</th>
+</tr>
+<tr>
+<th bgcolor="#D8E97D"><p onmouseover=EventHandler126() onmouseleave=EventHandler127()>Post Transition Metals</p>
+</th>
+</tr>
+<tr>
+<th bgcolor="#9932CC"><p onmouseover=EventHandler128() onmouseleave=EventHandler129()>Lanthanoids</p>
+</th>
+</tr>
+<tr>
+<th bgcolor="#FFB6C1"><p onmouseover=EventHandler130() onmouseleave=EventHandler131()>Actinoids</p>
+</th>
+</tr>
+<tr>
+<th bgcolor="#00FF00"><p onmouseover=EventHandler132() onmouseleave=EventHandler133()>Metalloids</p>
+</th>
+</tr>
+<tr>
+<th bgcolor="#32CD32"><p onmouseover=EventHandler134() onmouseleave=EventHandler135()>Non-Metals</p>
+</th>
+</tr>
+<tr>
+<th bgcolor="#A9A9A9"><p onmouseover=EventHandler136() onmouseleave=EventHandler137()>Unknown</p>
+</th>
+</tr>
+</table><br><br><br><br><br>
+<h1 style="text-align:right">Made by: Thapaee<br></h1> 
+</body>
+</html>
